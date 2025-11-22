@@ -1,0 +1,46 @@
+# Ignore data directory (generated CSVs and other data files)
+data/
+
+# Optionally keep an empty placeholder file if you want the folder tracked
+# Uncomment the next line if you add a `.gitkeep` file inside `data/`
+# !data/.gitkeep
+
+# --- Python / environment / build artifacts ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Installer logs and caches
+pip-log.txt
+pip-delete-this-directory.txt
+.python-version
+
+# Test / coverage
+.pytest_cache/
+.cache/
+.coverage
+htmlcov/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Misc
+*.egg
+*.log
+*.DS_Store
