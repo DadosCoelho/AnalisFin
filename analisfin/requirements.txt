@@ -1,0 +1,16 @@
+# AnalisFin - Dependências
+
+# Core
+pandas>=2.0.0
+numpy>=1.24.0
+requests>=2.31.0
+
+# CLI e Interface
+rich>=13.0.0
+
+# Gráficos
+matplotlib>=3.7.0
+
+# Utilitários
+python-dateutil>=2.8.0
+pathlib>=1.0.1
